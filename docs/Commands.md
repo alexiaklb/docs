@@ -6,7 +6,7 @@ title: Commands
 
 :::info Note
 ### Always remember the following!
-- The default prefix of Rythm is `!`. If you have changed your prefix to something else, please use your prefix instead of `!`. If you forget your prefix, mention Rythm (`@Rythm#3722`).
+- The default prefix of Rythm is `-`. If you have changed your prefix to something else, please use your prefix instead of `-`. If you forget your prefix, mention Rythm (`@Rythm#3722`).
 - **Never include `<>` in your messages when using a command!**
 - Time can be in different formats
    + Example: `100`, `1:50`, `2m30s`
@@ -19,23 +19,23 @@ title: Commands
     - **Aliases:** `summon`
 ---
 - **`!play`** - Plays a song with the given name or url. [**More Info**](/play_song)
-    - **Usage:** `!play <link/query>`
+    - **Usage:** `-play <link/query>`
     - **Alias:** `p`
 ---
 - **`!playtop`** - Adds a song with the given name/url __on the top of the queue__.
-    - **Usage:** `!playtop <link/query>`
+    - **Usage:** `-playtop <link/query>`
     - **Aliases:** `pt`, `ptop`
 ---
 - **`!playskip`** - Skips the current song and plays the song you requested.
-    - **Usage:** `!playskip <link/query>`
+    - **Usage:** `-playskip <link/query>`
     - **Aliases:** `ps`, `pskip`, `playnow`, `pn`
 ---
 - **`!search`** - Searches from [Youtube](https://www.youtube.com) for a song via your query and returns the top 10 results.
-    - **Usage:** `!search <query>`
+    - **Usage:** `-search <query>`
     - **Alias:** `find`
 ---
 - **`!soundcloud`** - Plays a song from [SoundCloud](https://www.soundcloud.com)  with the given name/url
-    - **Usage:** `!soundcloud <link/query>`
+    - **Usage:** `-soundcloud <link/query>`
     - **Alias:** `sc`
 ---
 - **`!nowplaying`** - Shows what song Rythm is currently playing.
@@ -45,10 +45,10 @@ title: Commands
     - **Aliases:** `save`, `yoink`
 ---
 - **`!seek`** - Seeks to a certain point in the current track.
-    - **Usage:** `!seek <time>`
+    - **Usage:** `-seek <time>`
 ---
 - **`!rewind`** - Rewinds by a certain amount of time in the current track.
-    - **Usage:** `!rewind <time>`
+    - **Usage:** `-rewind <time>`
     - **Alias:** `rwd`
 ---
 - **`!forward`** - Forwards by a certain amount of time in the current track.
