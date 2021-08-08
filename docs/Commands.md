@@ -6,7 +6,7 @@ title: Commands
 
 :::info Note
 ### Always remember the following!
-- The default prefix of Rythm is `!`. If you have changed your prefix to something else, please use your prefix instead of `!`. If you forget your prefix, mention Rythm (`@Rythm#3722`).
+- The default prefix of Rythm is `-`. If you have changed your prefix to something else, please use your prefix instead of `-`. If you forget your prefix, mention Rythm (`@Rythm#3722`).
 - **Never include `<>` in your messages when using a command!**
 - Time can be in different formats
    + Example: `100`, `1:50`, `2m30s`
@@ -19,23 +19,23 @@ title: Commands
     - **Aliases:** `summon`
 ---
 - **`!play`** - Plays a song with the given name or url. [**More Info**](/play_song)
-    - **Usage:** `!play <link/query>`
+    - **Usage:** `-play <link/query>`
     - **Alias:** `p`
 ---
 - **`!playtop`** - Adds a song with the given name/url __on the top of the queue__.
-    - **Usage:** `!playtop <link/query>`
+    - **Usage:** `-playtop <link/query>`
     - **Aliases:** `pt`, `ptop`
 ---
 - **`!playskip`** - Skips the current song and plays the song you requested.
-    - **Usage:** `!playskip <link/query>`
+    - **Usage:** `-playskip <link/query>`
     - **Aliases:** `ps`, `pskip`, `playnow`, `pn`
 ---
 - **`!search`** - Searches from [Youtube](https://www.youtube.com) for a song via your query and returns the top 10 results.
-    - **Usage:** `!search <query>`
+    - **Usage:** `-search <query>`
     - **Alias:** `find`
 ---
 - **`!soundcloud`** - Plays a song from [SoundCloud](https://www.soundcloud.com)  with the given name/url
-    - **Usage:** `!soundcloud <link/query>`
+    - **Usage:** `-soundcloud <link/query>`
     - **Alias:** `sc`
 ---
 - **`!nowplaying`** - Shows what song Rythm is currently playing.
@@ -45,14 +45,14 @@ title: Commands
     - **Aliases:** `save`, `yoink`
 ---
 - **`!seek`** - Seeks to a certain point in the current track.
-    - **Usage:** `!seek <time>`
+    - **Usage:** `-seek <time>`
 ---
 - **`!rewind`** - Rewinds by a certain amount of time in the current track.
-    - **Usage:** `!rewind <time>`
+    - **Usage:** `-rewind <time>`
     - **Alias:** `rwd`
 ---
 - **`!forward`** - Forwards by a certain amount of time in the current track.
-    - **Usage:** `!forward <time>`
+    - **Usage:** `-forward <time>`
     - **Alias:** `fwd`
 ---
 - **`!replay`** - Resets the progress of the current song.
@@ -64,7 +64,7 @@ title: Commands
     - **Alias:** `skip`, `next`, `s`
 ---
 - **`!forceskip`** - Skips the current playing song immediately.
-    - **Other Usage:** `!forceskip <number>` - Skip a certain amount of songs.
+    - **Other Usage:** `-forceskip <number>` - Skip a certain amount of songs.
     - **Aliases:** `fs`, `fskip`
     - **Note:** `DJ` role/`Manage Channels` permission required.
 ---
@@ -85,30 +85,30 @@ title: Commands
 ## Queue
 ---
 - **`!queue`** - Shows the first page of the queue.
-    - **Other Usage:** `!queue <page>`: Shows the specified page number.
+    - **Other Usage:** `-queue <page>`: Shows the specified page number.
     - **Alias:** `q`
 ---
 - **`!loopqueue`** - Toggles looping for the whole queue.
     - **Aliases:** `qloop`, `lq`, `queueloop`
 ---
 - **`!move`** - Moves a certain song to a chosen position in the queue.
-    - **Usage:** `!move <old positon> <new position>`
+    - **Usage:** `-move <old positon> <new position>`
     - **Aliases:** `m`, `mv`
     - **Note:** If the `<new position>` is not specified, the song will be moved to the first position of the queue
 ---
 - **`!skipto`** - Skips to a certain position in the queue.
-    - **Usage:** `!skipto <position>`
+    - **Usage:** `-skipto <position>`
     - **Alias:** `st`
 ---
 - **`!shuffle`** -  Shuffles the entire queue.
     - **Alias:** `random`
 ---
 - **`!remove`** - Removes a certain entry from the queue.
-    - **Usage:** `!remove <numbers>`
+    - **Usage:** `-remove <numbers>`
     - **Alias:** `rm`
 ---
 - **`!clear`** - Clears the whole queue.
-    - **Other Usage:** `!clear <@user>` - Clears all songs requested by the mentioned user.
+    - **Other Usage:** `-clear <@user>` - Clears all songs requested by the mentioned user.
     - **Alias:** `cl`
 ---
 - **`!leavecleanup`** - Removes absent user's songs from the queue.
@@ -138,7 +138,7 @@ title: Commands
 
 ## Settings
 ---
-- **`!settings`** - Use the command format `!settings <option>` to view more info about an option. [More Info](/settings)
+- **`!settings`** - Use the command format `-settings <option>` to view more info about an option. [More Info](/settings)
     - **Alias:** `setting`
     - **List of options:**
       - [**`prefix`**](/settings#prefix) - Changes Rythm's prefix.
@@ -169,17 +169,17 @@ title: Commands
     - **Alias:** `effect`
 ---
 - **`!speed`** - Shows information about the current speed effect.  [**Premium Only**](https://rythm.fm/premium?do)
-    - **Other Usage**: `!speed <0.1 - 3>` - Modifies the playback speed.
+    - **Other Usage**: `-speed <0.1 - 3>` - Modifies the playback speed.
 ---
 - **`!bass`** - Shows information about the current bass-boost effect.  [**Premium Only**](https://rythm.fm/premium?do)
-    - **Other Usage**: `!bass <1 - 5>` - Bass-boosts the current song.
+    - **Other Usage**: `-bass <1 - 5>` - Bass-boosts the current song.
 ---
 - **`!nightcore`** - Toggles nightcore effect.  [**Premium Only**](https://rythm.fm/premium?do)
 ---
 - **`!slowed`** - Toggles slowed effect.  [**Premium Only**](https://rythm.fm/premium?do)
 ---
 - **`!volume`** - Outputs the current volume.   [**Premium Only**](https://rythm.fm/premium?do)
-    - **Other Usage:** `!volume <1-200>` - Changes the current volume.
+    - **Other Usage:** `-volume <1-200>` - Changes the current volume.
     - **Alias:** `vol`
 ---
 
